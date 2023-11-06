@@ -23,8 +23,6 @@ class BTreeNode:
     self.leaf = leaf
     self.keys = []
     self.child = []
-
-
 # Tree
 class BTree:
   def __init__(self, t):
@@ -102,7 +100,6 @@ class BTree:
     else:
       return self.search_key(k, self.root)
 
-
 def main():
   B = BTree(3)
 
@@ -115,7 +112,6 @@ def main():
     print("\nFound")
   else:
     print("\nNot Found")
-
 
 if __name__ == '__main__':
   main()
